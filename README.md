@@ -21,14 +21,14 @@ Analyze various features within the car dataset that influence the price of the 
 #### Data Preparation
 
 * Car data set has many of the features which contains NaN values. So used various techinques and filled them.
-  -- In cases where both the 'Year' and 'Odometer' were missing, the respective rows were dropped, as these two attributes largely influence car prices.
-  -- For categorical features like 'manufacturer' and 'model', missing values were filled with the string 'other'.
-  -- Categorical columns such as 'condition', 'paint_color', etc., were converted to numerical values by assigning sequential numbers to each categorical value.
-  -- For missing 'Odometer' values, if the 'Year' was not null, the 'Odometer' was estimated based on the age of the car, assuming a car drives 10,000 miles per year.
- --  Similarly, for missing 'Year' values, if 'Odometer' was not null, the 'Year' was estimated based on a similar assumption.
-  -- A visualization was created to understand the distribution of vehicles based on the year of registration, providing insights into the year-wise sales data.
+  ** In cases where both the 'Year' and 'Odometer' were missing, the respective rows were dropped, as these two attributes largely influence car prices.
+  ** For categorical features like 'manufacturer' and 'model', missing values were filled with the string 'other'.
+  ** Categorical columns such as 'condition', 'paint_color', etc., were converted to numerical values by assigning sequential numbers to each categorical value.
+  ** For missing 'Odometer' values, if the 'Year' was not null, the 'Odometer' was estimated based on the age of the car, assuming a car drives 10,000 miles per year.
+  ** Similarly, for missing 'Year' values, if 'Odometer' was not null, the 'Year' was estimated based on a similar assumption.
+  ** A visualization was created to understand the distribution of vehicles based on the year of registration, providing insights into the year-wise sales data.
   ![image info](images/histogram.png)
-  -- Outliers were identified in the dataset, particularly in the 'price' and 'odometer' columns
+  ** Outliers were identified in the dataset, particularly in the 'price' and 'odometer' columns
   ![image info](images/outlier1.png)
   -- To mitigate outliers or price and odometer, a maximum price range of 100K and a maximum odometer reading of 300K were imposed, and rows exceeding these values were removed.
   -- For rows with missing 'model' values but a known 'manufacturer', the most common 'model' within that manufacturer group was used to fill the missing 'model'.
