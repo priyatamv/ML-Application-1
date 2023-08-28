@@ -149,7 +149,7 @@ and consideration of model complexity is vital to validate their effectiveness o
 
 ## Link to notebook
 
-https://github.com/priyatamv/ML-Application-1/blob/main/prompt_II.ipynb
+[Notebook]https://github.com/priyatamv/ML-Application-1/blob/main/prompt_II.ipynb
 
 ## Authors
 
@@ -160,7 +160,3 @@ Priyatam Veyyakula
 * 0.1
     * Initial Release
 
-
-## Acknowledgments
-
-* [in-vehicle coupon recommendation](https://archive.ics.uci.edu/dataset/603/in+vehicle+coupon+recommendation)
