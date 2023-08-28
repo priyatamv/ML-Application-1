@@ -33,9 +33,9 @@ Car data set has many of the features which contains NaN values. So used various
 * To mitigate outliers or price and odometer, a maximum price range of 100K and a maximum odometer reading of 300K were imposed, and rows exceeding these values were removed.
 * For rows with missing 'model' values but a known 'manufacturer', the most common 'model' within that manufacturer group was used to fill the missing 'model'.
 * Following the removal of outliers, a box plot was generated to visualize the cleaned data and ensure that no suppression or distortion occurred
-   ![image info](images/outlier2.png)
+* ![image info](images/outlier2.png)
 * Finally, a correlation matrix was plotted to assess the relationships between variables in the cleaned dataset.This matrix offered insights into potential correlations and dependencies between different attributes.
-  ![image info](images/corelation.png)
+* ![image info](images/corelation.png)
 
 ### Feature selection
 After conducting feature selection using two different techniques, RandomForestRegressor and Recursive Feature Elimination (RFE),
