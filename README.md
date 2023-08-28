@@ -149,7 +149,7 @@ and consideration of model complexity is vital to validate their effectiveness o
 
 ## Link to notebook
 
-[Notebook]https://github.com/priyatamv/ML-Application-1/blob/main/prompt_II.ipynb
+https://github.com/priyatamv/ML-Application-1/blob/main/prompt_II.ipynb
 
 ## Authors
 
