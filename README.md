@@ -92,8 +92,8 @@ An attempt was made to identify the relevant features using the following models
         * LinearRegression
   
 ##### Evaluation
-    * Using hyperparameters to the models
-    * Cross validation on the Linear models
+* Using hyperparameters to the models
+* Cross validation on the Linear models
     
 ## Summary of Regression Model Evaluations
 
@@ -149,7 +149,6 @@ An attempt was made to identify the relevant features using the following models
 - R-squared (Coefficient of Determination): 1.0
 
 #### Next Steps and Recommendations
-### Next Steps and Recommendations
 
 #### Tackling Overfitting: 
 For the PolynomialFeatures model, consider fine-tuning polynomial degrees and regularization to mitigate overfitting.
