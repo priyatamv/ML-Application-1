@@ -91,11 +91,13 @@ The following encoding techniques were applied to the categorical variables:
 
 * Visualizing the Correlation Matrix
   ![image info](images/corelation.png)
+  
 * Identifying the Top 20 Features with Positive and Negative Correlations
-  Top 10 positive correlated unique features:
+  
+  ** Top 10 positive correlated unique features:
 	['manu_tesla', 'drive', 'fuel', 'price', 'type', 'odometer', 'manu_ram', 'transmission', 'year']
 
-  Top 10 negative correlated unique features:
+  ** Top 10 negative correlated unique features:
 	['manu_morgan', 'manu_ferrari', 'manu_harley-davidson', 'manu_datsun', 'manu_alfa-romeo', 'manu_aston-martin', 'paint_color', 'manu_land 	rover', 'manu_hyundai', 'transmission']
   
 ##### Feature Selection
