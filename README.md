@@ -20,49 +20,61 @@ Analyze various features within the car dataset that influence the price of the 
 
 #### Data Exploration
 
-Part of data exploration the following activities has been done.
-* Checking for missing Values
-* Checking Zero values
-* Checking Unique Values
-* Check Unique Identifiers
-* Check for Duplicate Records
-* Check for outliers
+As part of data exploration, the following activities have been undertaken:
+* Checking for Missing Values
+* Checking for Zero Values
+* Checking for Unique Values
+* Identifying Unique Identifiers
+* Detecting Duplicate Records
+* Identifying Outliers
+  
 #### Data visualziation
 * Explored data visually for various features using histograms
    ![image info](images/histogram.png)
 * Plot outliers
+  ![image info](images/outliers.png)
+  
 #### Data Preparation
-  ##### Data Cleaning
-      * Drop Missing Year and Odometer values
-      * Remove Duplicate Values
-      * Remove outliers
-      * Flag Outliers Based on Thresholds
-      * Remove outliers based on IQR
-      * Remove outliers based on thresholds
-      * Fill Categorical Missing Values
- ##### Data Encoding           
-      * Ordinal Encoding
-      * One-Hot Encoding
+##### Data Cleaning
+As part of data cleaning, the following activities have been carried out:
+
+* Dropping Missing Year and Odometer Values
+* Removing Duplicate Values
+* Eliminating Outliers
+* Identifying and Flagging Outliers Based on Thresholds
+* Removing Outliers Based on Interquartile Range (IQR)
+* Removing Outliers Based on Thresholds
+* Filling Missing Values in Categorical Variables
+
+##### Data Encoding 
+The following encoding techniques were applied to the categorical variables:
+* Ordinal Encoding
+* One-Hot Encoding
+      
 ##### Data Correlation          
-    * Finding correlation of features
-    * Visualize Correlation matrix
-    * Top 20 positive and negative correlation features
-##### Feature Selection]
-    * RandomForestRegressor
-    * RFE
-##### PCA           
-    * PCA analysis on the features what were found by RFE
-    * RFE
+* Calculating Feature Correlations
+* Visualizing the Correlation Matrix
+* Identifying the Top 20 Features with Positive and Negative Correlations
+  
+##### Feature Selection
+An attempt was made to identify the relevant features using the following models.
+* RandomForestRegressor
+* RFE
+  
+##### PCA   
+* PCA analysis was conducted on the features identified by Recursive Feature Elimination (RFE).
+
 ##### Modeling
-	* Creating datasets for modeling
-	* Model-Iteration 1:Dataset no outliers and cleaned data
+* Creating datasets for modeling
+* Model-Iteration 1:Dataset no outliers and cleaned data
+	* LinearRegression
+	* LinearRegression With PolynomialFeatures
+	* LinearRegression With PolynomialFeatures and Ridge
+* Model-Iteration 2: Encoded data with top co-related features
+	* LinearRegression
+* Model-Iteration 3: Encoded-data-with-top-co-related-feature-with-PCA
         * LinearRegression
-        * LinearRegression With PolynomialFeatures
-        * LinearRegression With PolynomialFeatures and Ridge
-	* Model-Iteration 2: Encoded data with top co-related features
-        * LinearRegression
-  * Model-Iteration 3: Encoded-data-with-top-co-related-feature-with-PCA
-        * LinearRegression
+  
 ##### Evaluation
     * Using hyperparameters to the models
     * Cross validation on the Linear models
