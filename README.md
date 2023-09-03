@@ -178,6 +178,28 @@ An attempt was made to identify the relevant features using the following models
 - Y Train Mean Squared Error: 3.259e-22
 - R-squared (Coefficient of Determination): 1.0
 
+## Recommendations to Dealer
+
+**Highlight Manufacturer Influence**: Emphasize cars from manufacturers like Tesla and Ram, which positively impact prices.
+
+**Drivetrain Matters:** Include drivetrain details (4WD, FWD, RWD) in listings to attract buyers looking for specific options.
+
+**Fuel Efficiency and Type:** Highlight fuel efficiency and type (gas, electric) to cater to eco-conscious and budget-conscious buyers.
+
+**Newer Models Command Higher Prices:** Showcase the manufacturing year prominently, especially for newer models.
+
+**Categorize Vehicle Types:** Accurately categorize vehicles (sedan, SUV, truck) to target specific buyer preferences.
+
+**Low Mileage Is a Plus:** Highlight low-mileage cars to attract buyers seeking reliable vehicles.
+
+**Be Cautious with Certain Manufacturers:** Be aware of manufacturers like Morgan, Ferrari, and Land Rover, which may impact prices negatively.
+
+**Consider Paint Color Impact:** While not a top factor, paint color can affect prices. Take it into account when pricing vehicles.
+
+**Optimize Models and Feature Engineering:** Use Linear Regression Models with Polynomial Features and Hyperparameters for accurate pricing predictions. Explore feature engineering techniques.
+
+**Data, Feedback, and Compliance:** Maintain up-to-date, comprehensive data. Monitor competitors, collect customer feedback, and ensure regulatory compliance for trust and competitiveness.
+
 ## Next Steps and Recommendations
 
 #### Tackling Overfitting: 
