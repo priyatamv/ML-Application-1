@@ -67,27 +67,28 @@ The following encoding techniques were applied to the categorical variables:
       
 ##### Data Correlation          
 * Calculating Feature Correlations
-
-0 (('price', 'odometer'), 0.36907900887867806)
-1 (('year', 'odometer'), 0.2926465355369914)
-2 (('year', 'transmission'), 0.2747539490009454)
-3 (('price', 'year'), 0.23803561313565363)
-4 (('drive', 'type'), 0.2356928548986164)
-5 (('type', 'manu_ram'), 0.19377949567164665)
-6 (('price', 'fuel'), 0.1875001968282456)
-7 (('fuel', 'manu_tesla'), 0.18326092277609743)
-8 (('price', 'type'), 0.17901811188851197)
-9 (('odometer', 'transmission'), 0.16803688772008593)
-10 (('year', 'manu_other'), 0.16761419516953213)
-11 (('manu_chevrolet', 'manu_ford'), 0.1674768953659072)
-12 (('type', 'manu_ford'), 0.15569732366002964)
-13 (('year', 'condition'), 0.14552805713851982)
-14 (('manu_ford', 'manu_toyota'), 0.1381289317259558)
-15 (('fuel', 'type'), 0.13290431122137758)
-16 (('fuel', 'manu_ram'), 0.1311634619016448)
-17 (('condition', 'odometer'), 0.12845163772683355)
-18 (('price', 'manu_ram'), 0.1277610285498859)
-19 (('year', 'drive'), 0.12507192016139454)
+| Attributes | Cor | 
+| :---:   | :---: | :---: |
+| ('price', 'odometer') | 0.36907900887867806 |
+| ('year', 'odometer')  | 0.2926465355369914  |
+| ('year', 'transmission')  | 0.2747539490009454  |
+| ('price', 'year') | 0.23803561313565363 |
+| ('drive', 'type') | 0.2356928548986164 |
+| ('type', 'manu_ram') | 0.19377949567164665 |
+| ('price', 'fuel'), 0.1875001968282456 |
+| ('fuel', 'manu_tesla'), 0.18326092277609743 |
+| ('price', 'type'), 0.17901811188851197 |
+| ('odometer', 'transmission'), 0.16803688772008593 |
+| ('year', 'manu_other'), 0.16761419516953213 |
+| ('manu_chevrolet', 'manu_ford'), 0.1674768953659072 |
+| ('type', 'manu_ford'), 0.15569732366002964 |
+| ('year', 'condition'), 0.14552805713851982 |
+| ('manu_ford', 'manu_toyota'), 0.1381289317259558 |
+| ('fuel', 'type'), 0.13290431122137758 |
+| ('fuel', 'manu_ram'), 0.1311634619016448 |
+| ('condition', 'odometer'), 0.12845163772683355 |
+| ('price', 'manu_ram'), 0.1277610285498859 |
+| ('year', 'drive'), 0.12507192016139454 |
 
 * Visualizing the Correlation Matrix
   ![image info](images/corelation.png)
